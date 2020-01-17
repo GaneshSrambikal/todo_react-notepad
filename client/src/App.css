@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat|Cedarville+Cursive|Reenie+Beanie|Yesteryear&display=swap');
+*{
+  margin :0;
+  padding: 0;
+}
+body{
+  line-height: 1.4;
+  font-size: 30px;
+  
+}
+.listStyle{
+  /* font-family: 'Cedarville Cursive', cursive; */
+  font-family: 'Caveat', cursive;
+/* font-family: 'Reenie Beanie', cursive; */
+
+/* font-family: 'Cedarville Cursive', cursive; */
+}
+.container{
+  margin : 0 1em;
+  
+}
+
+@media screen and (max-width : 480px){
+  .container {
+    margin : 0
+  }
+  body{
+    font-size: 26px;
+  }
+}
